@@ -56,3 +56,6 @@ class User(AbstractUser):
     currency = models.CharField(
         choices=CURRENCY_CHOICES, max_length=3, null=True, blank=True
     )
+
+    # 슈퍼 호스트 추가.(슈퍼 권한)
+    superhost = models.BooleanField(default=False)
