@@ -46,7 +46,7 @@ PROJECT_APP = [
 ]
 
 # 다른 사람이 만든 앱 추가
-THIRD_PARTY_APPS = []
+THIRD_PARTY_APPS = ["django_countries"]
 
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APP + THIRD_PARTY_APPS
