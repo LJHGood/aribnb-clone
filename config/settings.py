@@ -40,8 +40,8 @@ DJANGO_APPS = [
 
 # 내가 만든 앱 추가
 PROJECT_APP = [
-    "core.apps.CoreConfig",
     "users.apps.UsersConfig",
+    "core.apps.CoreConfig",
     "rooms.apps.RoomsConfig",
 ]
 
