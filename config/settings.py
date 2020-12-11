@@ -38,12 +38,16 @@ DJANGO_APPS = [
     "django.contrib.staticfiles",
 ]
 
+# 내가 만든 앱 추가
 PROJECT_APP = [
     "users.apps.UsersConfig",
 ]
 
+# 다른 사람이 만든 앱 추가
+THIRD_PARTY_APPS = []
 
-INSTALLED_APPS = DJANGO_APPS + PROJECT_APP
+
+INSTALLED_APPS = DJANGO_APPS + PROJECT_APP + THIRD_PARTY_APPS
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
