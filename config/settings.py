@@ -44,6 +44,7 @@ PROJECT_APP = [
     "core.apps.CoreConfig",
     "rooms.apps.RoomsConfig",
     "reviews.apps.ReviewsConfig",
+    "reservations.apps.ReservationsConfig",
 ]
 
 # 다른 사람이 만든 앱 추가
